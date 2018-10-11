@@ -3,8 +3,8 @@ package task3.disk;
 
 public abstract class Composition {
 		
-	int duration;
-	 String genre;
+	 private int duration;
+	 private String genre;
 	
 	 public Composition (int duration, String genre) {
 		 this.duration = duration;

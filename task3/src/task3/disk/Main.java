@@ -14,7 +14,7 @@ public class Main {
 		
 		Disk disk = new Disk();
 		
-		disk.CreateMyDisk(new Composition[]
+		disk.createMyDisk(new Composition[]
 				{new Pop(1), new Jazz(3), new Pop(2), new Rock(), new Rock(6), new Pop()});
 		System.out.print(disk.getDiskDuration());
 		

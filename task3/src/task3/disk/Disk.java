@@ -7,7 +7,7 @@ public class Disk {
 	
 	Composition[] myDisk;
 	
-	public void CreateMyDisk (Composition[] record) {
+	public void createMyDisk (Composition[] record) {
 		this.myDisk = record;
 	}
 	
